@@ -1,4 +1,4 @@
-# urh-cc1101_FEC_encode_decode_plugin
+# urh-cc1101_FEC_encode_decode_plugin_long
 Universal Radio Hacker (urh) plugin to encode and decode cc1101 messages, which uses the cc1101 FEC (forward error correction) feature
 
 external encoder and decoding plugin for CC1101 FEC (Forward Error Correction) in urh.
