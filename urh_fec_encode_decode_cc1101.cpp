@@ -56,9 +56,9 @@ const unsigned int fecEncodeTable[] = {
 */
 
 unsigned char rxBuffer[4];  // Buffer used to hold data read from the RXFIFO (4 bytes are read at a time)
-unsigned char rxPacket[64]; // Data + CRC after being interleaved and decoded
+unsigned char rxPacket[8 * 64]; // Data + CRC after being interleaved and decoded
 
-unsigned char rx_data[64] = {0};
+unsigned char rx_data[8 * 64] = {0};
 
 unsigned char output_format = 0;
 unsigned char mode_decode = 0;
